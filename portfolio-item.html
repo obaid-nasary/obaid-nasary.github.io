@@ -28,7 +28,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Service</a></li>
+                    <!-- <li class="nav__item"><a href="index.html#services" class="nav__link">My Service</a></li> -->
                     <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
                 </ul>
@@ -36,8 +36,79 @@
             </nav>
         </header>
 
-        <!-- introduction 01 -->
+                                <!-- introduction 01 -->
         <section class="intro" id="portfolio-item-01">
+            <h1 class="section__title section__title--intro">
+                Employees <strong> Manager </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> manage with ease </p>
+            <img src="employees.png" alt="" class="intro__img" width="300px"> 
+        </section>
+
+        <div class="portfolio-item-individual" >
+            <p> Employees Management is web application based on role access. The application in the current state has 5 user roles
+                with different authorities. A user with admin or manager role has the ability to add new users to the system, and update 
+                the users with the limitation of changing the user role which only super admin has the authority to change or delete a user. 
+                I am working on expanding it more, and bringing more functionalities into it. 
+            </p>
+            <img src="empman.png" alt="">
+            <p> The application is built in Spring Boot for the back-end and Angular with Bootstrap for front-end. The main purpose of doing
+                this project was to get more familiar with Spring Security and Jason Web Token.
+             </p>
+             <p>
+                 The application is also deployed in AWS and by <a href="http://18.209.129.73/">clicking</a> the <strong>SEE LIVE</strong>  button below will 
+                 navigate you to the live view of the application.
+             </p>
+
+
+            <div  style="text-align: center; padding-bottom: 0em;">
+                <h3 >Technologies Used</h3>
+            </div>
+
+            <ul class="tech-list">
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="angular.png" alt=""></a>
+                </li>
+    
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="spring.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="jwt.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="mysql.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="boot.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="aws.png" alt=""></a>
+                </li>
+    
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="intel.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="vsc.png" alt=""></a>
+                </li>
+            </ul>
+            
+            <div style="text-align: center;">
+                <a href="http://18.209.129.73/" class="btn"> See Live</a> 
+            </div>
+
+
+            
+        </div>
+
+        <!-- introduction 02 -->
+        <section class="intro" id="portfolio-item-02">
             <h1 class="section__title section__title--intro">
                 IBAN Number <strong>Validator</strong>
             </h1>
@@ -57,13 +128,46 @@
             <p> The application is built in Spring Boot <i class="fab fa-java"></i> for back-end, Angular <i class="fab fa-angular"></i> 
             for front-end and MySQL as for the database. </p>
 
-            <div style="text-align: center;">
+            
+
+            <div  style="text-align: center; padding-bottom: 0em;">
+                <h3 >Technologies Used</h3>
+            </div>
+
+            <ul class="tech-list" style="padding-top: 0em;">
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="angular.png" alt=""></a>
+                </li>
+    
+                <li class="tech-list__item">
+                    <a style="font-size: 12;" ><img src="spring.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a style="font-size: 12;" ><img src="postgres.png" alt=""></a>
+                </li>
+                
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="boot.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="intel.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="vsc.png" alt=""></a>
+                </li>
+
+            </ul>
+
+            <!-- <div style="text-align: center;">
                 <a href="https://www.google.com" class="btn">See Live</a> 
             </div>
-        </div>
+        </div> -->
 
-                <!-- introduction 02 -->
-        <section class="intro" id="portfolio-item-02">
+                <!-- introduction 03 -->
+        <section class="intro" id="portfolio-item-03">
             <h1 class="section__title section__title--intro">
                 GIPHY GIFs <strong> Finder </strong>
             </h1>
@@ -83,12 +187,50 @@
             <img src="giphy-port.png" alt="">
             <p> The application is built in Spring Boot <i class="fab fa-java"></i> for back-end, and Angular <i class="fab fa-angular"></i> 
             with basic Bootstrap for front-end. </p>
-            
-            <div style="text-align: center;">
-                <a href="https://www.google.com" class="btn"> See Live</a> 
+
+            <div  style="text-align: center; padding-bottom: 0em;">
+                <h3 >Technologies Used</h3>
             </div>
+
+            <ul class="tech-list">
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="ibm.png" alt=""></i></a>
+                </li>
+    
+                <li class="tech-list__item">
+                    <a class="tech-list__link" ><img src="angular.png" alt=""></a>
+                </li>
+    
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="spring.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="giphy-logo.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="boot.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="intel.png" alt=""></a>
+                </li>
+
+                <li class="tech-list__item">
+                    <a class="tech-list__link"><img src="vsc.png" alt=""></a>
+                </li>
+    
+            </ul>
+            
+            <!-- <div style="text-align: center;">
+                <a href="https://www.google.com" class="btn"> See Live</a> 
+            </div> -->
+
+
             
         </div>
+
 
         
 
