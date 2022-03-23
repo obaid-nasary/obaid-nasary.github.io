@@ -318,14 +318,15 @@
 
  .my-services {
      background-color: var(--clr-dark);
-     background-image: url(servicesbg.jpeg);
-     background-size: cover;
-     height: 600px;
+     /* background-image: url(servicesbg.jpeg); */
+     /* background-size: cover; */
+     /* height: 600px; */
+     /* width: 1200px; */
      background-blend-mode: multiply;
      /* background-blend-mode:overlay; */
      color: var(--clr-light);
      text-align: center;
-     display: block;
+     /* display: block; */
  }
 
  /*.my-services {
@@ -446,6 +447,8 @@
       /* background: var(--clr-accent); */
       overflow: hidden;
       margin-left: 2em;
+      margin-left: 0em;
+      margin: 1em;
 
   }
 
@@ -468,21 +471,23 @@
   }
 
 
+
+
+
+
   /* Footer */
 
   .footer {
       background: #111;
       color: var(--clr-accent);
-      text-align: center;
+      text-align: center;      
       padding: 2.5em 0;
       font-size: var(--fs-h3);
-
   }
 
   .footer a {
       color: inherit;
       text-decoration: none;
-
   }
 
 .footer__link {
@@ -571,35 +576,41 @@
 .headinger{
     text-align: center;
     font-size: 60px;
-    color: #fff;
+    font-family: var(--ff-primary);
+    color: var(--clr-light);
     text-transform: capitalize;
     font-weight: 300;
     margin-bottom: 100px;
+    margin-top: -.7em;
      
 }
 
 .skills-container{
     width: 95%;
-    margin: auto;
+    margin: 0 auto;
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 1px;
     color: #fff;
 }
 
 .skill-card{
     position: relative;
-
+    top: -4em;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .skill-img{
     display: block;
     margin: auto;
-    height: 120px;
+    height: 70px;
 }
 
 .skill-name{
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
     text-transform: capitalize;
