@@ -564,7 +564,60 @@
 
 }
 
+
+.techies {
+    display: inline-block;
+    /* font-size: 84px; */
+    animation: float 5s ease-in-out infinite;
+}
+
+.ri-slow-line {
+    animation-delay: 1s;
+}
+
+.ri-fast-line {
+    animation-delay: 2s;
+}
+
+/* .ri-instagram-line {
+    animation-delay: 1s;
+} */
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
 /* skills */
+
+.skilling {
+    display: block;
+    /* font-size: 44px; */
+    animation: float 1s ease-in-out infinite;
+}
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
 
 .skill-section{
     /* justify-content: space-between; */
@@ -673,3 +726,36 @@
     border-color: #4fdfff;
     color: #4fdfff;
 } */
+
+/* icons animation */
+
+.icon {
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.ri-facebook-circle-line {
+    animation-delay: 1s;
+}
+
+.ri-whatsapp-line {
+    animation-delay: 2s;
+}
+
+/* .ri-instagram-line {
+    animation-delay: 1s;
+} */
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
